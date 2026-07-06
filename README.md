@@ -1,6 +1,6 @@
 
 # DeckList24
-
+![Список задач DeckList24](Screenshots/img1.png)
 DeckList24 is a separate native Nextcloud app with app id `decklist24`.
 
 It does not replace Nextcloud Deck. It opens at `/apps/decklist24/` and uses the installed Deck app at `/apps/deck/` as the source of boards, stacks, cards, assignees and labels.
