@@ -1,3 +1,4 @@
+
 # DeckList24
 
 DeckList24 is a separate native Nextcloud app with app id `decklist24`.
@@ -11,6 +12,7 @@ sudo mkdir -p /var/snap/nextcloud/current/nextcloud/extra-apps
 sudo cp -a /home/boss/BACKUP-NEXTCLOUD/decklist24 /var/snap/nextcloud/current/nextcloud/extra-apps/decklist24
 sudo chown -R root:root /var/snap/nextcloud/current/nextcloud/extra-apps/decklist24
 sudo nextcloud.occ app:enable decklist24
+sudo nextcloud.occ maintenance:mode --off
 ```
 
 Deck must stay installed and enabled:
